@@ -1,0 +1,67 @@
+div #galerie
+{
+  background: #eed;
+  opacity:0.9;
+  filter: alpha(opacity = 90%);
+  border: 1px dotted #dcb;
+  padding: 15 15 70 15;
+  margin: 15 30px;
+  text-align: center;
+  font: 0.9em Georgia, serif;
+  background-color: #9DF;
+  border-radius:110px;
+}
+
+#galerie_mini
+{
+  list-style-type: none;
+}
+
+#galerie_mini li
+{
+  float: left;
+}
+
+#galerie_mini li img
+{
+  float:left;
+  margin: 5px 5px;
+  border: 2px solid black;
+  border-radius:5px;
+  box-shadow: 5px 5px 5px gray;
+  width:100px;
+}
+
+#galerie_mini li img:hover
+{
+  border: 2px solid white;
+  box-shadow: 5px 5px 5px white;
+}
+
+#galerie_mini li img:active
+{
+  border: 2px solid white;
+  box-shadow: 5px 5px 20px white;
+}
+
+dl#photo
+{
+  clear: both;
+  margin: 0 auto;
+}
+
+dl#photo dt
+{
+  font: italic 2.5em/1.5em Georgia, serif ;
+  color: black;
+}
+
+dl#photo dd
+{
+  margin: 0 ;
+}
+
+dl#photo img
+{
+  border: 1px solid #dcb ;
+}

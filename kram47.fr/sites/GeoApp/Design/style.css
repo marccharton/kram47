@@ -1,0 +1,87 @@
+html { 
+  margin:0;
+  padding:0;
+  background: url(bg2.png) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
+}
+
+body
+{ 
+  padding-top: 50px;
+
+}
+
+.map
+{
+	width:				561px;
+	height:				450px;
+	background:	url(map.png) left top no-repeat;
+	position:			relative;
+	margin-right:		auto;
+	margin-left:		auto;	
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.5) inset;
+}
+
+.map .overlay
+{
+	width:				561px;
+	height:				450px;
+	background:	url(map.png) 561px top no-repeat;
+	position:			absolute;
+	top:					0px;
+	left:					0px;
+	z-index:			1;
+}
+
+.map img
+{
+	position: relative;
+	width: 561px;
+	height:				450px;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	border-radius: 10px;
+}
+
+.map .tooltip
+{
+	position:			fixed;
+	border-radius:		5px;
+	color:				#FFF;
+	background:			#000;
+	padding:			0px 10px;
+	display:			inline;
+	top:				0px;
+	left:				0px;
+	z-index:			3;
+	text-align:			center;
+}
+
+.infoBox
+{
+	width:				400px;
+	border-radius:	5px;
+	padding:			10px 10px;
+	z-index:				3;
+	text-align:			left;
+	padding: 35px 20px;
+	line-height: 1.5em;
+	color: #444444;
+	background-color: #ddd;
+	background-image: linear-gradient(#E5E5E5, #CFCFCF);
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.infoBox .information
+{
+	text-align: right;
+}
+
+.infoBox #country_flag
+{
+	height : 	80px;
+}

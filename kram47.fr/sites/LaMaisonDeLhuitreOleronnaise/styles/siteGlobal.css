@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+* { border:solid black 1px;}
+*/
+
+body {
+	background-color:#BCF2FE;	
+	background-color:#FAF446;
+	background-image: url(../assets/pictures/stripe_bg5.jpg);
+	background-repeat:repeat-x;
+
+/* Fond Jaune moche mais comme sur "map" */
+/*	background-color:#F7FD09; */
+}
+
+#globalSite			{
+	display : table;
+	width:1000px; 
+	margin:auto;
+	margin-top: 20px;
+}
+
+
+/*********************************************************/
+/***********************  Header  ************************/
+
+header #banniereLogo {
+	display : inline-block;
+	width : 200px;
+	height : 150px;
+	margin: 10;
+	border: 1px solid black;
+}
+
+header #banniereTitre {
+	display : inline-block;
+	height : 150px;
+	width:800px;
+	border:solid 2px black;
+	vertical-align:top;
+	margin-left:55;
+	text-align:center;
+	font-size:3.4em;
+	border-radius: 10px;
+	font-family:"Comic Sans MS", cursive; 
+}
+
+
+/********************  Fin de Header  ********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/*************************  Nav  *************************/
+
+nav
+{
+	float:left;
+    width: 200px;
+	height: 370px;
+	margin: 10 0 0 10;
+    border: 2px solid black;
+	background-color:#F7EEDD;
+	background-color:#FFF;
+	background-color:#FAF080;
+	border-radius:5px;
+	padding: 0px;
+}
+#mainMenu		{
+	list-style-type: none;	
+	list-style-position: outside;
+	margin: 0;
+	padding: 0 0 0.5em 20;
+	position:inherit;
+	font-weight:bold;
+	/** HUITRE MENU **/
+/*	background-image:url('assets/pictures/huitre2.gif');
+	background-repeat:no-repeat;
+	background-size:150px 330px; */
+}
+
+#mainMenu li 			{											
+	margin-top:15px;
+}
+
+.menuLink			{
+	text-decoration:none;
+	color : black;
+	width:20px;
+}
+.menuLink:hover			{
+	letter-spacing:0.2em;
+}
+
+/*********************  Fin de Nav  **********************/
+/*********************************************************/
+
+/*********************************************************/
+/***********************  Section  ***********************/
+
+section
+{
+	width:900px;
+	min-height: 370px;
+	margin: 10 10 10 230;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px #845104;
+    border-radius: 5px;
+	padding:10 20 20 20;
+	background-color:#F7EEDD;
+	background-color:#BCF2FE;
+}
+
+/*******************  Fin de Section  ********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/************************  Page  *************************/
+
+.pagePara
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.1em;
+	text-align:justify;
+}
+
+#pageParaIndent
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.1em;
+	text-align:justify;
+	margin-left:30px;
+}
+
+#pageParaFloat
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.1em;
+	text-align:justify;
+	float: left;
+	width:400px;
+	padding: 0 10 0 0;
+	margin: 0 10 0 0;
+}
+
+.pagePict
+{
+	border:1px solid black;
+	box-shadow: 5px 5px 10px #555;
+	padding:10px;
+	margin:10 0;
+}
+
+.pageTab
+{
+	cellspacing: 0px;
+}
+
+#pageTime
+{
+	width: 150px; 
+	height: 40px; 
+	padding: 15px;
+	border-radius: 5px;
+	text-align:center;
+	border:2px solid black;
+	vertical-align:text-bottom;
+	position:absolute;
+	right : 20px;
+	top: 50%;
+	position:fixed;
+}
+
+.badRedirection
+{
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:5em;
+}
+
+h1
+{
+	text-align:center;
+	font-size:30px;
+	box-shadow: 5px 5px 20px #555;
+	border-radius: 30px;
+	padding:10;
+
+}
+
+h2
+{	
+	text-align:left;
+	font-size:23px;
+	padding:5 0;
+}
+
+hr
+{
+	width: 50%;
+	margin: 30 auto;
+	clear:both;
+}
+
+/*********************  Fin de Page  *********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/***********************  Footer  ************************/
+
+#banniereContact		{
+	font-weight:bold;
+	width:500px;
+	margin:10px;
+	padding:10 10;
+	text-align:center;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+footer 
+{
+	background-color:#FAE030;
+	background-color:#FAF080;
+	margin:50 10 10 10;
+	border:2px dotted #000;
+	text-align:center;
+}
+
+/********************  Fin de Footer  ********************/
+/*********************************************************/
+
+#parcTab td
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:justify;
+	padding:5px;
+}
+
+#parcTab th
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:justify;
+	padding:5px;
+	background-color: #0997FA;
+}
+
+.parcVisitesHorairesTab
+{
+	margin: 20px;
+	vertical-align: top;
+	width:500px;
+}
+.parcVisitesHorairesTab th
+{
+	text-align:left;		
+	font-weight:bold;
+	background-color:#29D900;
+}
+
+.parcVisitesHorairesTab td
+{
+	width:50px;
+	height:30px;
+}
+

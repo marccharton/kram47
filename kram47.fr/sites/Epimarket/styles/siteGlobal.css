@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+ *{ border:solid black 1px;}
+*/
+
+/*********************************************************/
+/************************  Page  *************************/
+
+ * {
+	 padding: 0;
+	 margin: 0;
+}
+
+body {
+	background-repeat: repeat;
+}
+
+h1
+{
+	text-align:center;
+	font-size:30px;
+	-webkit-box-shadow: 5px 5px 20px #555;
+	-webkit-border-radius: 30px;
+	padding: 10px;
+}
+
+h2
+{	
+	text-align: left;
+	font-size: 23px;
+	padding: 5px 0px;
+}
+
+hr
+{
+	width: 50%;
+	margin: 30px auto;
+	clear:both;
+}
+
+#globalSite			{
+	display : table;
+	width:1000px; 
+	margin: 10 auto 0 auto;
+	*margin:20 13% 20 17%;
+}
+
+/*********************  Fin de Page  *********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/***********************  Header  ************************/
+
+#header {
+	height : 200px;
+	width: 100%;
+	*width: 1120px;
+	display : inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+	background-image: -webkit-linear-gradient(top, #FFF 0%, #EEF 60%);
+	*background: #EEF;
+	border-radius: 10px;
+	margin-bottom:	10px;
+}
+
+#header_logo {
+	width: 240px;
+	height: 200px;
+	display: inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+	-webkit-border-radius: 3px;
+	background: url(../img/logo.png);
+	background-size: 100%;
+}
+
+#header_name {
+	width: 620px;
+	display: inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+	vertical-align: text-bottom;
+	margin-bottom: 50px;
+	line-height: 2em;
+	font-size: 4em;
+	letter-spacing: 0.4em;
+	padding-left: 15px;
+	margin-right: 15px;
+	font-weight: bolder;
+}
+
+#header_informations {
+	display: inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+	border: 4px solid lightgray;
+	border-radius: 10px;
+	height: 170px;
+	width: 205px;
+	*width: 220px;
+	vertical-align:top;
+	padding: 10px;
+	text-align: right;
+}
+
+.header_information_block {
+	margin-bottom: 10px;	
+	width: 100%;
+}
+
+#header_client_name {
+	height: 30px;
+}
+
+#header_client_panier {
+	height: 30px;
+}
+
+#header_client_panier_logo {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	margin: 0 10;
+}
+
+#header_client_deco {
+	height: 30px;
+	margin:0;
+	margin-top: 70px;
+}
+
+/********************  Fin de Header  ********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/*************************  Nav  *************************/
+
+#nav
+{
+	padding: 5px;
+	width: 1120px;
+	background-image: -webkit-linear-gradient(top, #EEF 30%, #DDF 100%);
+	*background: #EEF;
+	border-radius: 10px;
+}
+
+#nav #nav_menu li
+{
+	list-style-type: none;	
+	list-style-position:outside;
+	display: inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+}
+
+.nav_link:hover
+{
+	background-color:	#CCF;
+	border-radius: 10px;
+	display: inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+}
+
+a {
+	text-decoration: none ;	
+	font-weight: 900;
+	display: inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+}
+
+a:visited {
+	color: black ;
+		display: inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+		background-color:	#CCF;
+}
+
+.nav_link {
+	width: 200px;
+	text-align: center ;
+	padding: 50px 0 ;
+		display: inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+}
+
+
+/*********************  Fin de Nav  **********************/
+/*********************************************************/
+
+/*********************************************************/
+/***********************  Section  ***********************/
+
+#section
+{
+	width: 1120px;
+	min-height: 600px;
+	margin: 10 0 0 0;
+    border-radius: 2px;
+	padding:10 0 15 15;
+	background-image: -webkit-linear-gradient(top, #EEF 0%, #F0F0FF 100%);
+	*background: #EEF;
+	vertical-align: top;
+	border-radius: 5px;
+}
+
+#section #left_column {
+	border: 2px solid lightgray;
+	width: 190px;
+	height: 600px;
+	display: inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+	vertical-align: top;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.product_category {
+	font-weight: bolder;
+	font-size: 1.5em;
+	width: 100%;
+	height: 30px;
+	background-color: rgba(100, 100, 250, 0.5);
+	text-align: center;
+}
+
+#section #right_column {
+	width: 910px;
+	height: 600px;
+	display: inline-block;	
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+	vertical-align: top;
+	overflow: auto;
+	padding: 0 0 10 0; 
+}
+
+.product_container {
+	width:200px;
+	height:250px;
+	border: 1px solid lightgray;
+	list-style-type: none;	
+	list-style-position:outside;
+	display: inline-block;
+	*display: inline; /*zoom: 1; /* ie6 ie7 hack */
+	margin: 5 5 5 13;
+	text-align:center;
+	border-radius: 5px;
+}
+
+.product_name {
+	font-weight: bolder;
+	font-size: 1.5em;
+	width: 100%;
+	height: 30px;
+	background-color: rgba(100, 100, 250, 0.5);
+}
+
+/*******************  Fin de Section  ********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/***********************  Footer  ************************/
+
+#footer 
+{
+	*width:1120px;
+	margin : 10 0;
+	text-align:center;
+	height: 100px;
+	background: #EEF;
+	*background: #EEF;
+}
+
+/********************  Fin de Footer  ********************/
+/*********************************************************/
+
+
+

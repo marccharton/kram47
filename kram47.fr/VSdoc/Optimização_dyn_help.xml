@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="Optimização" Title="Optimização Project - Documentation Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000001.html" LinkGroup="Optimização">AlgoGA Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.AlgoGA" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000000F.html" LinkGroup="Optimização">AlgoGA Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000019.html" LinkGroup="Optimização">AlgoPSO Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.AlgoPSO" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000028.html" LinkGroup="Optimização">AlgoPSO Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000002E.html" LinkGroup="Optimização">Functions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000000.html" LinkGroup="Optimização">Optimização Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000005A.html" LinkGroup="Optimização">Optimização Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Tools" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000056.html" LinkGroup="Optimização">Tools Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Tools.binToDecProportional" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000058.html" LinkGroup="Optimização">binToDecProportional Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.c1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000001B.html" LinkGroup="Optimização">c1 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.c2" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000001C.html" LinkGroup="Optimização">c2 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.callFitnessFunction" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000016.html" LinkGroup="Optimização">callFitnessFunction Method {Optimização.AlgoGA}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.callFitnessFunction" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000002A.html" LinkGroup="Optimização">callFitnessFunction Method {Optimização.AlgoPSO}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.callFunction" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000042.html" LinkGroup="Optimização">callFunction Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.copyLine" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000010.html" LinkGroup="Optimização">copyLine Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.crossover" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000014.html" LinkGroup="Optimização">crossover Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Tools.decToBinProportional" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000059.html" LinkGroup="Optimização">decToBinProportional Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.dimension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000000B.html" LinkGroup="Optimização">dimension Field {Optimização.AlgoGA}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.dimension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000021.html" LinkGroup="Optimização">dimension Field {Optimização.AlgoPSO}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.findGbest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000029.html" LinkGroup="Optimização">findGbest Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.fitness_function" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000022.html" LinkGroup="Optimização">fitness_function Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function01" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000043.html" LinkGroup="Optimização">function01 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function02" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000044.html" LinkGroup="Optimização">function02 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function03" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000045.html" LinkGroup="Optimização">function03 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function04" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000047.html" LinkGroup="Optimização">function04 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function04Gauss" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000046.html" LinkGroup="Optimização">function04Gauss Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function05" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000048.html" LinkGroup="Optimização">function05 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function06" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000049.html" LinkGroup="Optimização">function06 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function07" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000004A.html" LinkGroup="Optimização">function07 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function08" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000004B.html" LinkGroup="Optimização">function08 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function09" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000004C.html" LinkGroup="Optimização">function09 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function10" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000004D.html" LinkGroup="Optimização">function10 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function11" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000004E.html" LinkGroup="Optimização">function11 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function12" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000004F.html" LinkGroup="Optimização">function12 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function13" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000050.html" LinkGroup="Optimização">function13 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function14" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000051.html" LinkGroup="Optimização">function14 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function15" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000052.html" LinkGroup="Optimização">function15 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function16" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000053.html" LinkGroup="Optimização">function16 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.function17" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000054.html" LinkGroup="Optimização">function17 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.functionLimitMax" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000000E.html" LinkGroup="Optimização">functionLimitMax Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.functionLimitMin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000000D.html" LinkGroup="Optimização">functionLimitMin Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.functionName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000030.html" LinkGroup="Optimização">functionName Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.functionToCall" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000000C.html" LinkGroup="Optimização">functionToCall Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.gbest" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000027.html" LinkGroup="Optimização">gbest Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.initializePopulation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000017.html" LinkGroup="Optimização">initializePopulation Method {Optimização.AlgoGA}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.initializePopulation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000002C.html" LinkGroup="Optimização">initializePopulation Method {Optimização.AlgoPSO}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.initializeSpeed" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000002B.html" LinkGroup="Optimização">initializeSpeed Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.limits" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000002F.html" LinkGroup="Optimização">limits Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.loadParameters" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000011.html" LinkGroup="Optimização">loadParameters Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.max_iter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000020.html" LinkGroup="Optimização">max_iter Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.mutation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000015.html" LinkGroup="Optimização">mutation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.nbGen" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000007.html" LinkGroup="Optimização">nbGen Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Tools.nb_bit" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000057.html" LinkGroup="Optimização">nb_bit Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.parameterFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000002.html" LinkGroup="Optimização">parameterFile Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.pbests" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000026.html" LinkGroup="Optimização">pbests Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.pc" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000004.html" LinkGroup="Optimização">pc Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.pm" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000005.html" LinkGroup="Optimização">pm Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.popSize" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000006.html" LinkGroup="Optimização">popSize Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.population" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000008.html" LinkGroup="Optimização">population Field {Optimização.AlgoGA}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.population" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000025.html" LinkGroup="Optimização">population Field {Optimização.AlgoPSO}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.population_size" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000001F.html" LinkGroup="Optimização">population_size Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.random" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000003.html" LinkGroup="Optimização">random Field {Optimização.AlgoGA}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.random" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000001A.html" LinkGroup="Optimização">random Field {Optimização.AlgoPSO}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.rating" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000012.html" LinkGroup="Optimização">rating Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.ratio" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000000A.html" LinkGroup="Optimização">ratio Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.Functions.realFunction1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000055.html" LinkGroup="Optimização">realFunction1 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.results" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000009.html" LinkGroup="Optimização">results Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.run" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000018.html" LinkGroup="Optimização">run Method {Optimização.AlgoGA}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.run" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000002D.html" LinkGroup="Optimização">run Method {Optimização.AlgoPSO}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoGA.selection" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000013.html" LinkGroup="Optimização">selection Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.speeds" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000024.html" LinkGroup="Optimização">speeds Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.w" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_0000000000000023.html" LinkGroup="Optimização">w Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.w_max" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000001E.html" LinkGroup="Optimização">w_max Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Optimização.AlgoPSO.w_min" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Optimização.chm::/topic_000000000000001D.html" LinkGroup="Optimização">w_min Field</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

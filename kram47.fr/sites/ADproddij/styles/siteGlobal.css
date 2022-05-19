@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+ *{ border:solid black 1px;}
+*/
+
+/*	border: 1px black solid; */
+/*	display: indine-block; */
+/*	*display: inline; */
+
+/*********************************************************/
+/************************  Page  *************************/
+
+ * {
+	 padding: 			0px;
+	 margin: 			0px;
+}
+
+body {
+	background-color:	#FFF;
+	background-image:	url(../assets/pictures/backgrounds/bg2.png);
+}
+
+h1
+{
+	margin:				20px;
+	text-align:			center;
+	font-size:			23px;
+	text-decoration:	none;
+	text-transform:		uppercase;
+	font-family:		Georgia, "Times New Roman", Times, serif;
+}
+
+h1:after
+{
+	content: 			url(../assets/pictures/separateur.png);
+	display: 			block;
+}
+
+h2
+{	
+	text-align:			left;
+	font-size:			23px;
+	padding:			5px 0px;
+}
+
+.page {
+	margin:				auto;
+	width: 				80%;
+}
+
+.pagePara {
+	text-align:			justify;
+	padding: 			20px;
+	letter-spacing: 	1pt;
+	font-size:			18px;
+}
+
+.pageTextBold {
+	font-weight:		bold;
+	text-transform:		capitalize;
+}
+
+.pageImg {
+	background-size:	100%;
+	border:				1px black solid;
+	margin:				20px;
+}
+
+#accueil1 {
+	background-image:	url('../assets/pictures/photos/2012-10-27%2012.14.12.jpg');
+	width:				300px;
+	height:				200px;
+}
+
+#accueil2 {
+	background-image:	url('../assets/pictures/photos/2012-10-04%2009.31.40.jpg');
+	width:				180px;
+	height:				200px;
+	margin-top:			0px;
+}
+
+hr
+{
+	width: 50%;
+	margin: 30 auto;
+	clear:both;
+}
+
+#globalSite			{
+	display : table;
+	width: 900px; 
+	margin:auto;
+	margin-top: 10px;
+}
+
+/*********************  Fin de Page  *********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/***********************  Header  ************************/
+
+header {
+	display : inline-block;
+	width: 940px;
+/*	padding-left: 40px; */
+	padding: 0 0;
+	height: 248px;
+	margin-bottom:	1;
+	text-align: left;
+	background-color: #EEE;
+}
+
+#header_logo {
+	width: 100px;
+	vertical-align: middle;
+}
+
+#header_title {
+	font-weight: bold;
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: 4px;
+	position: relative;
+	left: 25%;
+	top: 15%;
+}
+
+#header_bg {
+	width : 100%;
+	height: 100%;
+}
+
+/********************  Fin de Header  ********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/*************************  Nav  *************************/
+
+nav
+{
+	height: 34px;
+	background-image: -webkit-linear-gradient(top, #EEE 0%, #DDD 100%);
+/*	background-color : #EEE; */
+}
+
+.nav_menu
+{
+	text-align:	center;
+}
+
+nav .nav_menu li
+{
+	list-style-type: none;	
+	list-style-position:outside;
+	width: 180px;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 2em;
+	text-shadow: white 1px 1px 1px;
+}
+
+.pages_link {
+	text-decoration: none;
+	color: black;
+	width: 110px;	
+}
+
+.pages_link div {
+	width:100%;
+	height:100%;
+}
+
+nav .nav_menu #selected_page
+{
+	background-image: url('../assets/pictures/buttons/button_gray2.png');
+}
+
+nav .nav_menu li:hover
+{
+	font-weight: bold;
+	line-height: 2em;
+	text-shadow: white 1px 1px 1px;
+	background-image: -webkit-linear-gradient(top left, #333 0%, #000 100%);
+	background-image: url('../assets/pictures/buttons/button_gray_hover.png');
+}
+
+nav .nav_menu #selected_page a
+{
+
+}
+
+nav .nav_menu #selected_page a:hover
+{
+	color: black;
+}
+
+
+/*********************  Fin de Nav  **********************/
+/*********************************************************/
+
+/*********************************************************/
+/***********************  Section  ***********************/
+
+section
+{
+	width: 900px;
+	min-height: 600px;
+	margin-top: 5;
+        border-radius: 2px;
+	padding:10 20 20 20;
+	background-color:#EEE;
+	border-radius: 5px;
+	background-image: -webkit-linear-gradient(top, #EEE 0%, #DDD 100%);
+}
+
+
+
+/*******************  Fin de Section  ********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/***********************  Footer  ************************/
+
+footer 
+{
+	background-color : #EEE;
+	margin : 5 0;
+	text-align:center;
+	height: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	background-image: -webkit-linear-gradient(top, #EEE 0%, #DDD 100%);
+}
+
+footer ul
+{
+	text-align:	center;
+}
+
+footer ul li
+{
+	list-style-type: none;
+	list-style-position:outside;
+	width: 110px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+/********************  Fin de Footer  ********************/
+/*********************************************************/

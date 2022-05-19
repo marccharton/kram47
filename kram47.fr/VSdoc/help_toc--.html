@@ -1,0 +1,637 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Menu</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+<style>
+html { font-family:sans-serif; background-color:#ffffff; font-size:75%;}
+a { text-decoration:none; color:rgb(0,51,102) }
+.header a { color:#000!important }
+.item { border:solid 0px #000; padding:0.25em; margin-left:1em }
+.header, .leaf { cursor:pointer; padding-left:19px; min-height:18px; line-height:18px; white-space:nowrap;}
+.closed { background:url(bookC.gif) no-repeat }
+.open { background:url(bookE.gif) no-repeat }
+.leaf { background:url(leaf.gif) no-repeat }
+</style>
+
+<script>
+function toggle(idsub,elhead) {
+    var elsub = document.getElementById(idsub);
+    if(elsub.style.display=="block")
+        elsub.style.display = "none";
+    else
+        elsub.style.display="block";
+        
+    if(elhead.className=="header open")
+        elhead.className = "header closed";
+    else
+        elhead.className = "header open";
+}
+
+function expandLinkInToc(url) {
+	var link = findLink(url);
+	//alert(link);
+	//alert(link.innerHTML);
+	if(!isElementVisible(link)) {
+		expandElementAndParents(link);
+	}
+	link.scrollIntoView(true);
+	link.focus();
+}
+
+function expandElementAndParents(elm) {
+	if(elm.style) {
+		if(elm.style.display=="none") {
+			//elm is container with subtopics
+			elm.style.display="block";
+			// process also chapter header
+			var id = elm.getAttribute("id");
+			id = id.substring(1);
+			var elHead = document.getElementById(id);
+			if(elHead.className=="header closed") {
+				elHead.className = "header open";
+			}
+		}
+	}
+	// process parents
+	if (elm.parentNode) {
+		expandElementAndParents(elm.parentNode);
+	}
+}
+
+function findLink(url) {
+	var links = document.links;
+	var i;
+	for (i=0; i<links.length; i++) {
+		if (links[i].href == url) {
+			return links[i];
+		}		
+	}
+	return null;
+} 
+
+function isElementVisible(elm) {
+	if(elm.style) {
+		if(elm.style.display == "none") {
+			return false;
+		}
+	}
+	if (elm.parentNode) {
+		return isElementVisible(elm.parentNode);
+	} else {
+		return true;
+	}
+}
+</script>
+
+</head>
+
+<body>
+    
+						 		<div id="1" class="header closed" onclick="toggle('c1',this)">
+   
+  		<a href="topic_000000000000005A.html" target="vbdocright">Optimização Reference</a>
+ 
+		</div>
+     <div id="c1" class="item" style="display:none">
+		
+     
+
+       <div id="2" class="header closed" onclick="toggle('c2',this)">
+    <a href="topic_0000000000000000.html" target="vbdocright">Optimização Namespace</a>
+    </div>
+    <div id="c2" class="item" style="display:none">
+		
+
+						    <div id="3" class="header closed" onclick="toggle('c3',this)">
+    <a href="topic_0000000000000001.html" target="vbdocright">AlgoGA Class</a>
+    </div>
+    <div id="c3" class="item" style="display:none">
+		
+ 		
+
+
+
+
+
+
+
+
+
+
+
+<div class="leaf"><a href="topic_0000000000000001_members--.html" target="vbdocright">AlgoGA Members</a></div>
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  <div class="leaf"><a href="topic_000000000000000F.html" target="vbdocright">AlgoGA Constructor </a></div>
+
+		
+		
+
+
+		
+
+
+		    <div id="4" class="header closed" onclick="toggle('c4',this)">
+    <a href="topic_0000000000000001_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c4" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						  <div class="leaf"><a href="topic_0000000000000016.html" target="vbdocright">callFitnessFunction Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000010.html" target="vbdocright">copyLine Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000014.html" target="vbdocright">crossover Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000017.html" target="vbdocright">initializePopulation Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000011.html" target="vbdocright">loadParameters Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000015.html" target="vbdocright">mutation Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000012.html" target="vbdocright">rating Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000018.html" target="vbdocright">run Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000013.html" target="vbdocright">selection Method</a></div>
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="5" class="header closed" onclick="toggle('c5',this)">
+    <a href="topic_0000000000000001_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c5" class="item" style="display:none">
+		
+						  <div class="leaf"><a href="topic_000000000000000B.html" target="vbdocright">dimension Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000E.html" target="vbdocright">functionLimitMax Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000D.html" target="vbdocright">functionLimitMin Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000C.html" target="vbdocright">functionToCall Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000007.html" target="vbdocright">nbGen Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000002.html" target="vbdocright">parameterFile Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000004.html" target="vbdocright">pc Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000005.html" target="vbdocright">pm Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000006.html" target="vbdocright">popSize Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000008.html" target="vbdocright">population Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000003.html" target="vbdocright">random Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000000A.html" target="vbdocright">ratio Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000009.html" target="vbdocright">results Field</a></div>
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="6" class="header closed" onclick="toggle('c6',this)">
+    <a href="topic_0000000000000019.html" target="vbdocright">AlgoPSO Class</a>
+    </div>
+    <div id="c6" class="item" style="display:none">
+		
+ 		
+
+
+
+
+
+
+
+
+
+
+
+<div class="leaf"><a href="topic_0000000000000019_members--.html" target="vbdocright">AlgoPSO Members</a></div>
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  <div class="leaf"><a href="topic_0000000000000028.html" target="vbdocright">AlgoPSO Constructor </a></div>
+
+		
+		
+
+
+		
+
+
+		    <div id="7" class="header closed" onclick="toggle('c7',this)">
+    <a href="topic_0000000000000019_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c7" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						  <div class="leaf"><a href="topic_000000000000002A.html" target="vbdocright">callFitnessFunction Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000029.html" target="vbdocright">findGbest Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000002C.html" target="vbdocright">initializePopulation Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000002B.html" target="vbdocright">initializeSpeed Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000002D.html" target="vbdocright">run Method</a></div>
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="8" class="header closed" onclick="toggle('c8',this)">
+    <a href="topic_0000000000000019_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c8" class="item" style="display:none">
+		
+						  <div class="leaf"><a href="topic_000000000000001B.html" target="vbdocright">c1 Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001C.html" target="vbdocright">c2 Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000021.html" target="vbdocright">dimension Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000022.html" target="vbdocright">fitness_function Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000027.html" target="vbdocright">gbest Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000020.html" target="vbdocright">max_iter Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000026.html" target="vbdocright">pbests Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000025.html" target="vbdocright">population Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001F.html" target="vbdocright">population_size Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001A.html" target="vbdocright">random Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000024.html" target="vbdocright">speeds Field</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000023.html" target="vbdocright">w Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001E.html" target="vbdocright">w_max Field</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000001D.html" target="vbdocright">w_min Field</a></div>
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="9" class="header closed" onclick="toggle('c9',this)">
+    <a href="topic_000000000000002E.html" target="vbdocright">Functions Class</a>
+    </div>
+    <div id="c9" class="item" style="display:none">
+		
+ 		
+
+
+
+
+
+
+
+<div class="leaf"><a href="topic_000000000000002E_members--.html" target="vbdocright">Functions Members</a></div>
+
+
+
+
+
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  <div class="leaf"><a href="topic_0000000000000030.html" target="vbdocright">functionName Enumeration</a></div>
+
+		
+		
+
+
+		
+
+
+		
+
+
+		    <div id="10" class="header closed" onclick="toggle('c10',this)">
+    <a href="topic_000000000000002E_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c10" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						  <div class="leaf"><a href="topic_0000000000000042.html" target="vbdocright">callFunction Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000043.html" target="vbdocright">function01 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000044.html" target="vbdocright">function02 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000045.html" target="vbdocright">function03 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000047.html" target="vbdocright">function04 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000046.html" target="vbdocright">function04Gauss Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000048.html" target="vbdocright">function05 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000049.html" target="vbdocright">function06 Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004A.html" target="vbdocright">function07 Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004B.html" target="vbdocright">function08 Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004C.html" target="vbdocright">function09 Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004D.html" target="vbdocright">function10 Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004E.html" target="vbdocright">function11 Method</a></div>
+
+						  <div class="leaf"><a href="topic_000000000000004F.html" target="vbdocright">function12 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000050.html" target="vbdocright">function13 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000051.html" target="vbdocright">function14 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000052.html" target="vbdocright">function15 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000053.html" target="vbdocright">function16 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000054.html" target="vbdocright">function17 Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000055.html" target="vbdocright">realFunction1 Method</a></div>
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="11" class="header closed" onclick="toggle('c11',this)">
+    <a href="topic_000000000000002E_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c11" class="item" style="display:none">
+		
+						  <div class="leaf"><a href="topic_000000000000002F.html" target="vbdocright">limits Field</a></div>
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="12" class="header closed" onclick="toggle('c12',this)">
+    <a href="topic_0000000000000056.html" target="vbdocright">Tools Class</a>
+    </div>
+    <div id="c12" class="item" style="display:none">
+		
+ 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="leaf"><a href="topic_0000000000000056_members--.html" target="vbdocright">Tools Members</a></div>
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="13" class="header closed" onclick="toggle('c13',this)">
+    <a href="topic_0000000000000056_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c13" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						  <div class="leaf"><a href="topic_0000000000000058.html" target="vbdocright">binToDecProportional Method</a></div>
+
+						  <div class="leaf"><a href="topic_0000000000000059.html" target="vbdocright">decToBinProportional Method</a></div>
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="14" class="header closed" onclick="toggle('c14',this)">
+    <a href="topic_0000000000000056_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c14" class="item" style="display:none">
+		
+						  <div class="leaf"><a href="topic_0000000000000057.html" target="vbdocright">nb_bit Field</a></div>
+
+			</div>
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+ 
+
+  
+		</div>
+ 
+
+
+
+		
+		
+</body>
+</html>

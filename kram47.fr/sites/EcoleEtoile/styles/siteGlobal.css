@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+ *{ border:solid black 1px;}
+*/
+
+/*	border: 1px black solid; */
+/*	display: indine-block; */
+/*	*display: inline; */
+
+/*********************************************************/
+/************************  Page  *************************/
+
+ * {
+	 padding: 			0px;
+	 margin: 			0px;
+}
+
+body {
+        background-color:	lightgrey;
+	background-image:	url(../assets/pictures/bg.png);
+}
+
+h1, h2, h3, h4 {
+    font-family:                    calibri, Times, serif;
+}
+
+h1
+{
+	margin:				20px;
+	text-align:			center;
+	font-size:			24x;
+	text-decoration:                none;
+	text-transform:                 uppercase;
+        margin-top:                     0px;
+}
+
+h1:after
+{
+	/*content: 			url(assets/pictures/separateur.png); */
+	display: 			block;
+}
+
+h2
+{	
+	text-align:			left;
+	font-size:			23px;
+	padding:			5px 0px;
+}
+
+.page {
+        margin:                         auto;
+	width: 				80%;
+}
+
+.pagePara {
+	text-align:			justify;
+	padding: 			20px;
+	letter-spacing:                 1pt;
+	font-size:			15px;
+        font-family:                    calibri;
+}
+
+.pagePara ul li {
+	min-height:                     80px;
+}
+
+.pageTextBold {
+	font-weight:                    bold;
+	text-transform:                 capitalize;
+}
+
+.pageImg {
+	background-size:                100%;
+	border:				1px black solid;
+	margin:				20px;
+}
+
+#accueil1 {
+	background-image:               url(assets/pictures/photos/2012-10-27%2012.14.12.jpg);
+	width:				300px;
+	height:				200px;
+}
+
+#accueil2 {
+	background-image:               url("../assets/pictures/photos/ramla 2.jpeg");
+	width:				180px;
+	height:				200px;
+	margin-top:			0px;
+}
+
+hr
+{
+	width: 50%;
+	margin: 30 auto;
+	clear:both;
+}
+
+#globalSite			{
+	display : table;
+	width: 900px; 
+	margin:auto;
+	margin-top: 10px;
+}
+
+/*********************  Fin de Page  *********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/***********************  Header  ************************/
+
+header {
+	margin: 0px;
+        display : inline-block;
+        box-shadow: #BBB 5px -5px 5px;
+	width: 940px;
+	padding: 0px 0px;
+	height: 328px;
+	text-align: left;
+	background-color: #EEE;
+}
+
+#header_logo {
+	width: 100px;
+	vertical-align: middle;
+}
+
+#header_title {
+	font-weight: bold;
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: 4px;
+	position: relative;
+	left: 25%;
+	top: 15%;
+}
+
+#header_bg {
+	width : 100%;
+	height: 100%;
+}
+
+/********************  Fin de Header  ********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/*************************  Nav  *************************/
+
+.nav_menu
+{
+        margin: 0px;	
+        height: 34px;
+        background-repeat:  repeat-x;
+        text-align:         center;
+        width:              940px;
+        background-image: url(../assets/pictures/nav.png);
+        box-shadow: #BBB 5px -5px 5px;
+}
+
+#socialBar
+{
+        text-align:         right;
+        padding:            9px 10px 5px 0px;
+        width:              930px;
+}
+
+.nav_menu li
+{
+	list-style-type: none;	
+	list-style-position:outside;
+	width: 180px;
+	display: inline-block;
+	font-weight: bold;
+	font-family: calibri;
+        line-height: 34px;
+	text-shadow: grey 1px 1px 1px;
+        *float: left;
+}
+
+.nav_menu li a:hover
+{
+        color: white;
+}
+
+
+.pages_link {
+	text-decoration: none;
+	color: white;
+	width: 110px;
+        display: inline;
+}
+
+.pages_link div {
+	width:100%;
+	height:100%;
+}
+
+nav .nav_menu #selected_page
+{
+	background-image: url('../assets/pictures/buttons/button_gray2.png');
+}
+
+nav .nav_menu #selected_page a
+{
+        
+}
+
+nav .nav_menu #selected_page a:hover
+{
+            
+}
+
+
+/*********************  Fin de Nav  **********************/
+/*********************************************************/
+
+/*********************************************************/
+/***********************  Section  ***********************/
+
+section
+{
+	width: 920px;
+	min-height: 600px;
+	margin: 0px 0px 0px 0px;
+        border-radius: 2px;
+        padding: 20px 10px;
+	background-color: #e8e1e1;
+        background: rgba(232,225,225,0.5);
+	box-shadow: #BBB 5px 0px 5px;
+}
+
+
+
+/*******************  Fin de Section  ********************/
+/*********************************************************/
+
+
+/*********************************************************/
+/***********************  Footer  ************************/
+
+footer 
+{
+	text-align:         center;
+	height:             250px;
+        width:              100%;
+        margin-top:         10px;
+        /*background-color :  #EEE;*/
+        background-image :  url(../assets/pictures/footer2.png);
+}
+
+footer #footerBigContent
+{
+
+        width:              900px;
+        height:             210px;
+        margin:             auto;
+        padding:            20px;
+}
+footer #footerContent
+{
+        height:             100%;
+}
+
+footer ul
+{
+	text-align:         center;
+        width:              100%;
+}
+
+footer ul li
+{
+	list-style-type:    none;
+	list-style-position:outside;
+	width:              230px;
+	display:            inline-block;
+	font-weight:        bold;
+        font-family:        calibri;
+        height:             100%;
+        vertical-align:     baseline;
+}
+
+footer ul li .footerSectionTitle
+{
+        border:             2px grey dotted;
+        border-radius:      5px;
+        font-size:          20px;
+        color:              white;
+}
+
+footer ul li .footerSectionContent
+{
+        color:              lightgrey;
+        font-style:         italic;
+}
+
+/********************  Fin de Footer  ********************/
+/*********************************************************/

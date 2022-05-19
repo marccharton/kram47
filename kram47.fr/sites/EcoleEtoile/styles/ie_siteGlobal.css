@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* IE CSS Document */
+
+
+#globalSite			{
+	display:table-row;
+	width:1400px;
+	margin:20 7% 20 12%;
+	margin-top: 20px;
+}
+
+#pageTime
+{
+	position:absolute;
+}
+
+header
+{
+	width: 1400px;
+}
+
+header #banniereTitre 
+{
+	display : inline;
+	zoom:1;
+}
+
+header #banniereLogo 
+{
+	display : inline;
+}
+
+#mainMenu
+{
+	zoom: 1;	
+	padding: 10;
+	margin: 10;
+}
+
+nav
+{
+	display : inline;
+}
+
+section
+{
+	display : inline;
+	zoom: 1;	
+	padding: 10;
+	margin: 10;
+}
+
+li
+{
+	margin:0 30 0 0;
+	z-index: 3;
+}
+
+li:hover
+{
+	margin:0 0 0 0;
+}

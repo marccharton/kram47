@@ -1,0 +1,116 @@
+/* 
+* @Author: Marc
+* @Date:   2014-06-01 17:43:26
+* @Last Modified by:   Marc
+* @Last Modified time: 2014-06-03 18:33:13
+*/
+
+body 
+{
+	margin:0;
+  	padding:0;
+  	background: url('../img/bg.jpg') no-repeat center; 
+  	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover; /* version standardisée */ 
+  	background-position: 0px -20px;
+	font-size : 18px;
+
+}
+
+#frise {
+	background: url('../img/frise.png');
+	width:100%;
+	height:59px;
+}
+
+header {
+	margin-top : 20px;
+	height: 200px;
+}
+
+	header a {
+		width: 100%;
+		height:100%;
+	}
+
+.navbar {
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.4);
+	opacity: 20%;
+}
+
+
+
+#content {
+	min-height : 500px;
+}
+
+	#content .imgContent {
+		border: 4px white solid;
+		border-radius: 2px;
+		box-shadow: 5px 5px 5px rgba(50,50,50,0.5);
+	}
+	
+	#content #img_accueil {
+		width : 100%;
+		height: 400px;
+	}
+
+	#content .text {
+		text-align: justify;
+		color: #e6e6e6;
+		background-color : rgba(47,47,47,0.4);
+		border-radius: 10px;
+		padding: 30px 30px;
+	}
+
+	#content .event_img {
+		width: 300px;
+		height: 370px;
+	}
+
+	#content .event {
+		padding: 20px;
+	}
+
+
+
+
+
+
+/*
+**************************************************
+********************* FOOTER *********************
+*/
+
+footer {
+	padding: 20px;
+	padding-top: 120px;
+	width: 100%;
+	height: 300px;
+	background-color: #FFFFFF;
+	background: url('../img/bg_footer.png') repeat-x;
+}
+
+	footer #logo {
+		width:150px;
+	}
+
+	#retourHautPage {
+		cursor: pointer;
+	}
+
+	footer a, #retourHautPage {
+		color: #303030;
+	}
+
+	footer a:hover, #retourHautPage:hover {
+		color: #2a6496;
+	}
+
+/*
+********************* FOOTER *********************
+**************************************************
+*/

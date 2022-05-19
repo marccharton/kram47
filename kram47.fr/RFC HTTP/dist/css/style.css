@@ -1,0 +1,72 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 10000px!important;
+  overflow: hidden;
+}
+
+.slides {
+  height: 100%;
+  /* Clear fix */
+  overflow: hidden;
+  *zoom: 1;
+  /**
+   * Prevent blinking issue
+   * Not tested. Experimental.
+   */
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+}
+
+.slide {
+  height: 100%;
+  float: left;
+  clear: none;
+}
+
+.slider-arrow {
+  position: fixed;
+  display: block;
+  top: 40px;
+  padding: 20px;
+  height: 256px;
+  width:256px;
+}
+
+
+.slider-arrow--right {
+  bottom: 50%;
+  right: 10px;
+  text-transform: uppercase;
+  background: url('../../fleche_droite.png');
+}
+
+.slider-arrow--left {
+  bottom: 50%;
+  left: 10px;
+  text-transform: uppercase;
+  background: url('../../fleche_gauche.png');
+}
+
+.slider-nav {
+  position: absolute;
+  bottom: 30px;
+}
+
+.slider-nav__item {
+  width: 12px;
+  height: 12px;
+  float: left;
+  clear: none;
+  display: block;
+  margin: 0 5px;
+  background: #fff;
+}
+
+.slider-nav__item:hover {
+  background: #ccc;
+}
+
+.slider-nav__item--current {
+  background: #ccc;
+}

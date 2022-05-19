@@ -1,0 +1,49 @@
+body {
+	background: #FFF;
+}
+
+
+nav
+{
+	position:fixed;
+	left:0;
+	z-index:10;
+	width:100%;
+}
+
+.sites {
+	height:	300px;
+	background: #EEE;
+	padding: 10px;
+	margin: 10px 0;
+	position: relative;
+	opacity: 0.8;
+	border-radius: 2px;
+	box-shadow: 5px 5px 5px #DDD;
+}
+
+	.sites:hover {
+		opacity: 1;
+		box-shadow: 5px 5px 5px #CCC;
+	}
+
+.sites h4 {
+	line-height:300px;
+	float:left;
+	height: 100%;
+	margin: 0;
+}
+
+
+#section-1 { background: #EDF7D9; }
+#section-2 { background: #FFDD4B; }
+#section-3 { background: #878D98; color:#EEE;}
+#section-4 { background: #43464B; color:#EEE;}
+#section-5 { background: #5A7198; color:#EEE;}
+
+.screenshot {
+	height: 280px;
+	position: absolute;
+	right: 100px;
+
+}
